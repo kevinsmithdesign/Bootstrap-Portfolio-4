@@ -1,0 +1,194 @@
+
+	.navbar-default {
+		background-color:#ffffff;
+		border-bottom:3px solid slategrey;
+		background-image:none;
+
+	}
+
+	.nav.navbar-nav.navbar-right li a {
+	color:#777777;
+	font-size:18px;
+	font-weight:light;
+	
+}
+
+	.nav.navbar-nav.navbar-right li a:hover {
+		color:#4aaaa5;
+		border-bottom:solid 2px #4aaaa5;
+		
+		padding-top:10px;
+		padding-bottom:10px;
+		
+
+}
+
+	.jumbotron {
+		margin-top:100px;
+
+	}
+
+	#j1 {
+		margin-bottom:90px;
+	}
+
+	.icon {
+		width:65px;
+		height:65px;
+		margin-right:10px;
+
+	}
+
+	.icon1 {
+		width:72px;
+		height:72px;
+		margin-right:6px;
+	}
+
+	.profile {
+		width:200px;
+		height:200px;
+		float:left;
+		margin-right:15px;
+	}
+
+	/* Contact Page */
+
+			label,
+		input[type=text],
+		input[type=email],
+		textarea {
+			display: block;
+			width: 100%;
+		}
+		input[type=text],
+		input[type=email],
+		textarea {
+			height: 35px;
+			border: 1px solid #ddd;
+			padding: 0 10px;
+			font-size: 14px;
+		}
+		textarea {
+			height: 200px;
+		}
+		input[type=submit] {
+			background:none;
+			border: 2px solid #4aaaa5;
+			color: #4aaaa5;
+			font-size: 14px;
+			font-weight:light;
+			text-align:center;
+			padding: 10px 30px;
+			cursor: pointer;
+		}
+
+		.btn-default:hover {
+			background-color:#4aaaa5;
+			color:#ffffff;
+			font-weight:light;
+			border:2px solid #4aaaa5;
+			
+
+		}
+
+	footer {
+		background-color:lightgrey;
+		text-align:center;
+		padding:20px;
+		border-top:8px solid slategrey;
+		position:fixed;
+		bottom:0;
+		width:100%;
+		color:slategrey;
+	}
+
+	/* Portfolio */
+
+	.work {
+		width:195px;
+		margin:10px;
+
+	}
+
+
+	/*  1199px */
+
+@media only screen and (max-width:1199px) {
+
+	#j2 {
+		margin-top:40px;
+		margin-bottom:30px;
+	}
+
+	.work {
+		width:250px;
+	}
+
+
+}
+
+@media only screen and (max-width:991px) {
+	.work {
+		width:278px;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.work {
+		width:324px;
+	}
+
+	#j1 {
+		margin-top:80px;
+	}
+
+}
+
+@media only screen and (max-width:760px) {
+	.work {
+		width:295px;
+	}
+}
+
+@media only screen and (max-width:708px) {
+	.work {
+		width:280px;
+	}
+}
+
+@media only screen and (max-width:680px) {
+	.work {
+		width:259px;
+	}
+}
+
+@media only screen and (max-width:640px) {
+	.work {
+		width:255px;
+	}
+}
+
+@media only screen and (max-width:629px) {
+	.work {
+		width:530px;
+	}
+}
+
+@media  only screen and (max-width:615px) {
+	.work {
+		width:450px;
+	}
+}
+
+@media only screen and (max-width:500px) {
+	.work {
+		width:400px;
+	}
+}
+
+@media only screen and (max-width:400px) {
+	.work {
+		width:305px;
+	}
+}
